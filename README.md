@@ -6,6 +6,8 @@
 
 *Claude agrees with you by default. ATHENA holds a trial: adversarial decision counsel for Claude Code and any AI agent.*
 
+**Red-team your decisions. A wise war council: five adversaries, Sun Tzu's terrain read, one verdict.**
+
 ![license](https://img.shields.io/badge/license-MIT-E8A23D)
 ![skill](https://img.shields.io/badge/type-skill-2C7A7B)
 ![lint](https://img.shields.io/badge/lint-37%2F37-E8A23D)
