@@ -1,6 +1,6 @@
 # The evidence pack
 
-SESHAT's methods are not vibes; each core mechanism has published evidence behind it. Cite one line when the method is used, never more.
+ATHENA's methods are not vibes; each core mechanism has published evidence behind it. Cite one line when the method is used, never more.
 
 ## Pre-mortem (lens 8)
 

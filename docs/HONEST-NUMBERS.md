@@ -1,6 +1,6 @@
-# HONEST-NUMBERS: when SESHAT loses
+# HONEST-NUMBERS: when ATHENA loses
 
-Every Demiurge product tells you where it does NOT win. Here is SESHAT's list.
+Every Demiurge product tells you where it does NOT win. Here is ATHENA's list.
 
 ## Verdicts are judgment, not oracle truth
 
@@ -11,7 +11,7 @@ A war council is five structured perspectives and a synthesis, run by language m
 The methods cite real published evidence (Klein 2007, Mitchell 1989, Schweiger 1986, Chiang et al. IUI'24; exact references in `references/citations.md`). The honest caveats those papers carry, carried here too:
 
 - The IUI'24 accuracy gains from an LLM devil's advocate concentrated on in-distribution tasks, and devil's advocacy that cuts overreliance can also produce UNDER-reliance: a council that talks you out of a good idea is a real failure mode.
-- Schweiger 1986 found adversarial process beats consensus on decision quality at a cost to satisfaction. SESHAT will sometimes feel bad to use. That is partly the mechanism working, and partly a real cost.
+- Schweiger 1986 found adversarial process beats consensus on decision quality at a cost to satisfaction. ATHENA will sometimes feel bad to use. That is partly the mechanism working, and partly a real cost.
 - The ~30% pre-mortem figure (Mitchell 1989) measures identification of failure REASONS, not project outcomes. A better failure list is not a guarantee of a better decision.
 
 ## A war council costs real tokens
@@ -20,7 +20,7 @@ Five parallel subagents plus a judge is the expensive path (typically several mi
 
 ## Trivial questions do not need a trial
 
-"Which variable name is better" needs nobody's war council. SESHAT's counsel mode will tell you when the question is too small for the machinery; believe it. The product's floor is a question where being wrong costs something.
+"Which variable name is better" needs nobody's war council. ATHENA's counsel mode will tell you when the question is too small for the machinery; believe it. The product's floor is a question where being wrong costs something.
 
 ## The record only works if you come back
 

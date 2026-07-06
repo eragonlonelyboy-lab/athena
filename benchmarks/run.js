@@ -1,4 +1,4 @@
-// SESHAT lint suite: asserts the skill's structural contract, citation
+// ATHENA lint suite: asserts the skill's structural contract, citation
 // integrity, record schema, and house copy rules. Reproducible, no network.
 // Run: node benchmarks/run.js
 'use strict';
@@ -45,7 +45,7 @@ check('compare-n: one verdict, no ties', /Never "it depends," never a tie/.test(
 check('compare-n: matrix dimensions named', /fatal[- ]risk/i.test(skill) && /cost-to-test/.test(skill));
 
 // --- 5. Decision records ----------------------------------------------------------
-check('records: path convention consistent', skill.includes('.seshat/decisions/YYYY-MM-DD-<slug>.md') && record.includes('.seshat/decisions/YYYY-MM-DD-<slug>.md'));
+check('records: path convention consistent', skill.includes('.athena/decisions/YYYY-MM-DD-<slug>.md') && record.includes('.athena/decisions/YYYY-MM-DD-<slug>.md'));
 check('records: schema blocks present', ['## Brief', '## Council', '## Verdict', '## The cheapest 48-hour test', '## Follow-up'].every(s => record.includes(s)));
 check('records: follow-up starts PENDING, asked once', /PENDING/.test(record) && /exactly once/.test(record) && /never/.test(record));
 check('records: never deleted, new entry not edit', /never deleted/.test(record));
@@ -71,7 +71,7 @@ check('tone: any-subject generalization (sentient google)', /Any subject qualifi
 check('tone: anti-generic ban', /Ban "validate your assumptions"/.test(skill));
 
 // --- 8. Packaging: caveman rules -------------------------------------------------------
-check('readme: meme pitch first line', readme.split('\n').slice(0, 4).join('\n').includes('SESHAT holds a trial'));
+check('readme: meme pitch first line', readme.split('\n').slice(0, 4).join('\n').includes('ATHENA holds a trial'));
 check('readme: before/after above install', readme.indexOf('## Before / after') < readme.indexOf('## Install'));
 check('readme: honest-numbers linked', readme.includes('HONEST-NUMBERS.md'));
 check('readme: PowerShell install first', readme.indexOf('PowerShell') < readme.indexOf('macOS / Linux'));

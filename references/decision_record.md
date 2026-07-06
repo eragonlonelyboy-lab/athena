@@ -1,6 +1,6 @@
 # Decision record schema
 
-Path: `.seshat/decisions/YYYY-MM-DD-<slug>.md` (slug: 3-5 words, kebab-case, from the brief).
+Path: `.athena/decisions/YYYY-MM-DD-<slug>.md` (slug: 3-5 words, kebab-case, from the brief).
 Git-diffable markdown. One decision, one file. Records are never deleted; a reversed verdict gets a new entry in the follow-up block, not an edit of the original.
 
 ```markdown
