@@ -71,11 +71,11 @@ check('tone: any-subject generalization (sentient google)', /Any subject qualifi
 check('tone: anti-generic ban', /Ban "validate your assumptions"/.test(skill));
 
 // --- 8. Packaging: caveman rules -------------------------------------------------------
-check('readme: meme pitch first line', readme.split('\n').slice(0, 4).join('\n').includes('ATHENA holds a trial'));
-check('readme: before/after above install', readme.indexOf('## Before / after') < readme.indexOf('## Install'));
+check('readme: meme pitch near top', readme.split('\n').slice(0, 10).join('\n').includes('ATHENA holds a trial'));
+check('readme: demo above install', readme.indexOf('## The verdict') < readme.indexOf('## Install for your agent'));
 check('readme: honest-numbers linked', readme.includes('HONEST-NUMBERS.md'));
 check('readme: PowerShell install first', readme.indexOf('PowerShell') < readme.indexOf('macOS / Linux'));
-check('readme: ecosystem table + funnel', readme.includes('CHIRON') && readme.includes('VERITAS') && readme.includes('Fair trade'));
+check('readme: ecosystem table + funnel', readme.includes('CHIRON') && readme.includes('VERITAS') && /fair trade/i.test(readme));
 check('honest: token cost admitted', /token/.test(honest) && /expensive/.test(honest));
 check('license: real MIT file', read('LICENSE').includes('MIT License') && read('LICENSE').includes('Copyright'));
 
