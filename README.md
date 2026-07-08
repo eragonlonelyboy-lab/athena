@@ -145,6 +145,9 @@ ATHENA is a [Demiurge](https://github.com/eragonlonelyboy-lab/demiurge) product:
 | HYPNOS | Greek god of sleep | memory consolidation: every change a diff, nothing deleted |
 | CALLIOPE | muse of epic poetry | full design agency in the terminal |
 | CHIRON | trainer of heroes | corrections become permanent cross-agent rules |
+| ZOILUS | the critic who found fault in Homer | judges the WORK, where Athena judges the CHOICE |
+| PEITHO | Greek goddess of persuasion | positioning, angles and offers that refuse to sound generic |
+| PYRRHO | founder of Greek skepticism | suspends judgment until the data earns it |
 
 Natural pairs: a verdict that ages badly becomes a CHIRON rule; a decision worth announcing goes through VERITAS.
 
