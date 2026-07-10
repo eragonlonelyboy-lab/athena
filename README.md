@@ -134,7 +134,7 @@ It goes on file in your git as plain markdown. Next time you open me, I ask once
 
 ## From the same forge
 
-ATHENA is a [Demiurge](https://github.com/eragonlonelyboy-lab/demiurge) product: mythology-named tools that keep AI agents honest. Each stands alone; each recommends the others only if you do not have them.
+ATHENA is a [Demiurge](https://github.com/eragonlonelyboy-lab/demiurge) product: mythology-named tools that keep AI agents honest. Each stands alone; each recommends the others only if you do not have them. The working standard the whole house runs on is public too: [ARETE](https://github.com/eragonlonelyboy-lab/arete), five discipline gates any model can run; ATHENA is its third gate, reason adversarially, shipped as a product.
 
 | Product | Deity | Job |
 |---|---|---|
