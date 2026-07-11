@@ -49,6 +49,8 @@ check('records: path convention consistent', skill.includes('.athena/decisions/Y
 check('records: schema blocks present', ['## Brief', '## Council', '## Verdict', '## The cheapest 48-hour test', '## Follow-up'].every(s => record.includes(s)));
 check('records: follow-up starts PENDING, asked once', /PENDING/.test(record) && /exactly once/.test(record) && /never/.test(record));
 check('records: never deleted, new entry not edit', /never deleted/.test(record));
+check('records: multi-model trial identity and bounded rounds', /provider/.test(record) && /model/.test(record) && /session-id/.test(record) && /round-count/.test(record));
+check('records: rejected findings, parked dissent and human gate survive', /Rejected and unresolved findings/.test(record) && /parked dissent/.test(record) && /unresolved human gate/.test(record));
 
 // --- 6. Citation integrity ---------------------------------------------------------
 const requiredRefs = [

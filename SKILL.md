@@ -26,6 +26,18 @@ Use **Compare-N** whenever the brief contains multiple competing options. When g
 ### Before anything: the open-records check
 If a decision-records directory exists (`.athena/decisions/`), scan it for records whose follow-up block is still open. If any exist, ask ONE line before the new work: *"Open verdict on file: [slug], the 48h test was [test]. Did you run it?"* Update the record with the answer (ran it: result + aged-well note; declined: mark declined). Never nag past one line; never block the new question.
 
+### Cross-model plan trial
+
+For high-stakes implementation plans, ATHENA may put the frozen plan before a different model family as a read-only adversarial reviewer. This is a trial layered onto Compare-N or War Council, not a fourth mode.
+
+1. Record planner, reviewer provider/model and stable session id when known.
+2. Give the reviewer the plan, relevant source and a fixed rubric, never the planner's private reasoning.
+3. Require `ACCEPT`, `REVISE`, or `ESCALATE`, with evidence and one-line fixes.
+4. Resume the same explicit review lineage for revisions. Never resume an unspecified "last" session when other work is live.
+5. Default to two review rounds. Allow up to five only when the risk justifies the spend.
+6. The planner may reject advice only with a reason on the record. Rejected findings are preserved.
+7. If disagreement survives the budget, route it to the human. A deadlock is evidence, not a failure to hide.
+
 ## Step 0: Get the brief (all modes)
 
 If `$ARGUMENTS` has the idea, start there. Then ask only what is missing:
